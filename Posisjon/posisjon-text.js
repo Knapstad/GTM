@@ -3,4 +3,3 @@ function posisjon_text(){
         el   = {{Click Element}};
     return [].indexOf.call(list, el) + 1;
 }
-
