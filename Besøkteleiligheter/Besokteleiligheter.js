@@ -15,4 +15,3 @@ if(!currentvalue.split(",").includes(leilighetsnummer.toString())){
 var newvalue = currentvalue+","+leilighetsnummer;}
 else{newvalue = currentvalue;}
 document.cookie="besokteleiligheter="+newvalue;
-
